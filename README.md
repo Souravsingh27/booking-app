@@ -63,12 +63,16 @@ nodemon
 
 sharp
 📦 Installation & Setup (Run Locally)
+
 1. Clone the Repository
- git clone URL 
-2. Install the Dependencies
- npm install 
+ git clone URL
+
+3. Install the Dependencies
+ npm install
+
 3.Configure Environment Variables in root directory
 ```env
+
 SECRET=yourSessionSecret
 ATLASDB_URL=yourMongoDBAtlasURL
 MAP_TOKEN=yourMapboxAccessToken
@@ -80,11 +84,4 @@ CLOUD_API_SECRET=yourCloudinaryAPISecret
 4.Run the Server
  ``` node app.js ``` 
 >
-5. ScreenShots
-
-
-![Screenshot 2025-04-30 232704](https://github.com/user-attachments/assets/e3f160cb-bc1f-48c6-9adc-0dba76cbbed8)
-![Screenshot 2025-04-30 232651](https://github.com/user-attachments/assets/71e27538-526f-4489-9d2c-4f2266c7de3e)
-![Screenshot 2025-04-30 232620](https://github.com/user-attachments/assets/aa10cc67-e84c-48de-a325-772083fb1c88)
-![Screenshot 2025-04-30 232529](https://github.com/user-attachments/assets/c84ea728-c1cc-4a68-ae7c-562f92f2d87f)
 
