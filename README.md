@@ -1,87 +1,12 @@
-# Booking web app - Hotel Booking Web App a is a full-stack hotel and stay booking platform, inspired by modern booking services Users can explore listings, add their own properties, edit, review, delete, and interact with dynamic features powered by real-time data .
-🚀 Features
+# React + Vite
 
-🖼️ Add, edit, and delete property listings (CRUD Operations)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🔎 Search functionality to find listings based on name, location, or keywords
+Currently, two official plugins are available:
 
-🏷️ Category-based listings for easy browsing (e.g., beach stays, mountain retreats, city hotels)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-💵 Price toggle with GST/Tax calculations
+## Expanding the ESLint configuration
 
-🛡️ Server-side validation for clean and secure data
-
-🧹 Clean and modular MVC architecture
-
-🧑‍🤝‍🧑 User authentication & authorization using bcrypt
-
-
-🛠️ Technologies Used
-
-Frontend: HTML, CSS, JavaScript, Tailwind, React
-
-Backend: Node.js, Express.js
-
-Database: MongoDB Atlas
-
-Authentication: Jwt
-
-Maps & Location Services: Mapbox Geocoding API
-
-Cloud Storage: Cloudinary
-
-Architecture Pattern: MVC (Model-View-Controller)
-
-📦 Project Dependencies This project uses the following dependencies:
-
-@mapbox/mapbox-sdk
-
-cloudinary
-
-connect-flash
-
-connect-mongo
-
-cookie-parser
-
-dotenv
-
-ejs
-
-ejs-mate
-
-express
-
-express-session
-
-mongoose
-
-multer
-
-nodemon
-
-
-sharp
-📦 Installation & Setup (Run Locally)
-
-1. Clone the Repository
- git clone URL
-
-3. Install the Dependencies
- npm install
-
-3.Configure Environment Variables in root directory
-```env
-
-SECRET=yourSessionSecret
-ATLASDB_URL=yourMongoDBAtlasURL
-MAP_TOKEN=yourMapboxAccessToken
-
-CLOUD_NAME=yourCloudinaryCloudName
-CLOUD_API_KEY=yourCloudinaryAPIKey
-CLOUD_API_SECRET=yourCloudinaryAPISecret
-```env
-4.Run the Server
- ``` node app.js ``` 
->
-
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
